@@ -82,10 +82,10 @@ function draw() {
 
   // Player kustība
   if (kb.pressing('left')){
-    player.vel.x = -2.5;
+    player.vel.x = -5;
   } 
   else if (kb.pressing('right')) {
-    player.vel.x = 2.5;
+    player.vel.x = 5;
   }
   else {
     player.vel.x = 0;
