@@ -27,7 +27,7 @@ function setup() {
   
   // player
   player = new Sprite(20, windowHeight -20, 10, 10);
-  player.img = loadImage('images/player.jpg');
+  player.img = loadImage('images/player1.png');
   player.rotationLock = true;
   
   //sienas
@@ -37,7 +37,6 @@ function setup() {
   // Asteroīdi
   akmens = new Sprite();
   akmens.img = loadImage('images/akmens.png');
-  akmens.size = 1;
   akmens.y = 10;
   akmens.direction = 90;
   akmens.speed = random(1.5, 2.5);
@@ -129,16 +128,16 @@ function draw() {
   textSize(16);
 
   //parāda līmeni
-  if (punkti >= 2 && punkti < 20) {
+  if (punkti >= 5 && punkti < 10) {
     limenis = 2;
     akmens.speed = random(2.5, 3.5);
     akmens.size = 50;
   }
-  else if (punkti >= 20 && punkti < 30) {
+  else if (punkti >= 10 && punkti < 15) {
     limenis = 3;
     akmens.speed = random(3.5, 4.5);
   }
-  else if (punkti >= 30) {
+  else if (punkti >= 15) {
     limenis = 4;
     akmens.speed = random(4.5, 5.5);
   }
