@@ -103,6 +103,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("white");
     text("Spēle beigusies", width / 2, height / 2);
+    player.remove();
+    akmens.remove();
     noLoop();
   }
 
@@ -113,6 +115,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill("white");
     text("Tu uzvarēji", width / 2, height / 2);
+    player.remove();
+    akmens.remove();
     noLoop();
   }
 
