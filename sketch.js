@@ -133,8 +133,8 @@ function draw() {
 
   if (akmens.y <= -20) {
     punkti += 10;
-    akmens.y = player.y;
-    akmens.x = player.x;
+    akmens.direction = player.x;
+    akmens.vel = 5;
     
   }
 
