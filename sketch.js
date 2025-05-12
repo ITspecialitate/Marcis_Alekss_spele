@@ -132,7 +132,10 @@ function draw() {
   }
 
   if (akmens.y <= -20) {
-    punkti += 40;
+    punkti += 10;
+    akmens.y = player.y;
+    akmens.x = player.x;
+    
   }
 
   //parāda punktu skaitu
