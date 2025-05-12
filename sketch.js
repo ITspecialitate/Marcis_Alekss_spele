@@ -119,6 +119,22 @@ function draw() {
     noLoop();
   }
 
+
+  if (punkti < 0) {
+    background("red");
+    textSize(50);
+    textAlign(CENTER, CENTER);
+    fill("white");
+    text("Spēle beigusies", width / 2, height / 2);
+    player.remove();
+    akmens.remove();
+    noLoop();
+  }
+
+  if (akmens.y <= -20) {
+    punkti += 40;
+  }
+
   //parāda punktu skaitu
   textSize(16); 
   text("Punkti " + punkti, 50, 30);
