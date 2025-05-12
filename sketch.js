@@ -134,7 +134,7 @@ function draw() {
   if (akmens.y <= -20) {
     punkti += 10;
     akmens.direction = player.x;
-    akmens.vel = 5;
+    akmens.speed = 5;
     
   }
 
