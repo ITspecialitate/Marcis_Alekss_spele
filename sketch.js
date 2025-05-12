@@ -167,7 +167,8 @@ function draw() {
     akmens.y = 0;
     akmens.x = random(0, width);
     akmens.direction = 90;
-  akmens.speed = random(1.5, 2.5);
+    akmens.speed = random(1.5, 2.5);
+    punkti -= 1;
   }
 
   }
