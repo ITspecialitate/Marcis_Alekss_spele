@@ -120,12 +120,13 @@ function draw() {
   }
 
   //parāda punktu skaitu
+  textSize(16); 
   text("Punkti " + punkti, 50, 30);
-  textSize(16);
+  
 
   //parāda hp skaitu
-  text("Dzīvības " + hp, 50, 60);
   textSize(16);
+  text("Dzīvības " + hp, 50, 60);
 
   //parāda līmeni
   if (punkti >= 5 && punkti < 10) {
