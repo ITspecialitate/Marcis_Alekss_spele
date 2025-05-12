@@ -132,9 +132,14 @@ function draw() {
   }
 
   if (akmens.y <= -20) {
-    punkti += 10;
-    akmens.direction = player.x;
-    akmens.speed = 5;
+    background("red");
+    textSize(50);
+    textAlign(CENTER, CENTER);
+    fill("white");
+    text("Spēle beigusies", width / 2, height / 2);
+    player.remove();
+    akmens.remove();
+    noLoop();
     
   }
 
