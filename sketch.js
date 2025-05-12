@@ -132,11 +132,11 @@ function draw() {
   }
 
   if (akmens.y <= -20) {
-    background("red");
+    background("blue");
     textSize(50);
     textAlign(CENTER, CENTER);
     fill("white");
-    text("Spēle beigusies", width / 2, height / 2);
+    text("Misija izpildīta", width / 2, height / 2);
     player.remove();
     akmens.remove();
     noLoop();
