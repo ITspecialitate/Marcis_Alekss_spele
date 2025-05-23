@@ -175,7 +175,7 @@ function draw() {
     lode.vel.y = -10;
     lode.rotationLock = true;
     lode.d = 5;
-    lode.color = color("black");
+    lode.color = color("lightblue");
   }
 
   //Lodes sadursme ar akmeni
