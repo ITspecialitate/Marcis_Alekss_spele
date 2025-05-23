@@ -145,11 +145,13 @@ function draw() {
 
   //parāda punktu skaitu
   textSize(16); 
+  textColor("White");
   text("Punkti " + punkti, 50, 30);
   
 
   //parāda hp skaitu
   textSize(16);
+  textColor("White");
   text("Dzīvības " + hp, 50, 60);
 
   //parāda līmeni
@@ -166,8 +168,9 @@ function draw() {
     limenis = 4;
     akmens.speed = random(4.5, 5.5);
   }
-  text("Līmenis " + limenis, 50, 90);
   textSize(16);
+  textColor("White");
+  text("Līmenis " + limenis, 50, 90);
 
   //šauj lodes
   if (kb.presses('space')){
