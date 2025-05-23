@@ -47,7 +47,7 @@ function setup() {
   lode.vel.y = -10;
   lode.rotationLock = true;
   lode.d = 5;
-  lode.color = color("light blue");
+  lode.color = color("lightblue");
   lode.remove();
 
   startaPoga  = new Sprite(width / 2, height / 3, 100, 50, 'k');
