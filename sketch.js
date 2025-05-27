@@ -74,7 +74,7 @@ function draw() {
     }
   }
   else if (state == 1){
-    background("black");
+    background("white");
 
   // Iestata statisku y player
   player.y = windowHeight - 20;
